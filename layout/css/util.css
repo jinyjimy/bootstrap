@@ -1,2 +1,65 @@
-body {padding:2rem;
-padding-top: 0.5rem;}
+body {
+    padding: 2rem;
+    padding-top: 0.5rem;
+}
+.title {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: lightslategray;
+    font-weight: bold;
+}
+.example {
+    padding: 1.5rem;
+    border-width: 1px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    position: relative;
+    margin: 1rem -.75rem 0;
+    border: 0.1rem solid #dee2e6;
+    background-color: #fafafa;
+}
+.bd-highlight {
+    background-color: rgba(86,61,124,0.15);
+    border: 1px solid rgba(86,61,124,0.15);
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.bd-placeholder-img-lg {
+    font-size: calc(1.475rem + 2.7vw);
+}
+.example>.btn, .example>.btn-group {
+    margin: .25rem .125rem;
+}
+.example>.dropdown-menu {
+    position: static;
+    display: block;
+}
+.offcanvas-show {
+    position: static;
+    display: block;
+    height: 200px;
+    visibility: visible;
+    transform: translate(0);
+}
+.example .pagination {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.modal-show {
+    position: static;
+    display: block;
+}
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+.example>.form-control+.form-control {
+    margin-top: .5rem;
+}
